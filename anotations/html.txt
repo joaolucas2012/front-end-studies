@@ -1,0 +1,22 @@
+Tags do HTML:
+--> Títulos: <title></title>
+--> Cabeça do site: <head></head>
+--> Corpo do site: <body></body>
+-----------------------------------------------------------------------
+TAGS DE TÍTULO: Servem para aumentar e destacar as tags.
+<h1>Texto</h1>
+<h2>Texto</h2>
+<h3>Texto</h3>
+<h4>Texto</h4>
+
+-----------------------------------------------------------------------
+TAGS DE TEXTO:
+--> Parágrafo: 
+    <p>Texto</p>
+
+--> SPAM: Serve para deixar tudo na mesma linha.
+    <spam></spam>
+
+--> Quebra de linha: 
+    <br/>
+-----------------------------------------------------------------------
