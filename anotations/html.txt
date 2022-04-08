@@ -2,6 +2,7 @@ TAGS DO HTML:
 --> Títulos: <title></title>
 --> Cabeça do site: <head></head>
 --> Corpo do site: <body></body>
+--> Dar estilo ao site: <style></style>
 
 -----------------------------------------------------------------------
 TAGS DE TÍTULO: Servem para aumentar e destacar as tags.
