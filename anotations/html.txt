@@ -1,13 +1,16 @@
-Tags do HTML:
+TAGS DO HTML:
 --> Títulos: <title></title>
 --> Cabeça do site: <head></head>
 --> Corpo do site: <body></body>
+
 -----------------------------------------------------------------------
 TAGS DE TÍTULO: Servem para aumentar e destacar as tags.
 <h1>Texto</h1>
 <h2>Texto</h2>
 <h3>Texto</h3>
 <h4>Texto</h4>
+<h5>Texto</h5>
+<h6>Texto</h6>
 
 -----------------------------------------------------------------------
 TAGS DE TEXTO:
@@ -19,4 +22,84 @@ TAGS DE TEXTO:
 
 --> Quebra de linha: 
     <br/>
+
+--> Deixar em negrito:
+    <b>Texto</b>
+
+--> Deixar texto em itálico:
+    <i>Texto</i>
+
+--> Deixar texto com underline embaixo:
+    <u>Texto</u>
+-----------------------------------------------------------------------
+TAGS DE IMAGEM:
+<img src="endereçodolink" alt="nomealternativo" width=100 height=200/>
+<img src="endereço-do-pc" alt="nomealternativo" width=100% height=100%/>
+
+-----------------------------------------------------------------------
+TAG DE LINK:
+<a href="endereço">Meu link</a>
+
+-----------------------------------------------------------------------
+TAG DE DIVISÕES: Servem pra dividir as coisas e organizar também.
+<div></div>
+
+-----------------------------------------------------------------------
+TAG DE TABELAS BÁSICAS:
+<table width="500" align="center" border="1">
+   <tr>
+      <td>Conteúdo</td>
+   </tr>
+   <tr>
+      <td>Conteúdo</td>
+   </tr>
+   <tr>
+      <td>Conteúdo</td>
+   </tr>
+</table>
+
+--> align alinha a tabela na tela (left, center ou right).
+--> border dá borda na tabela.
+--> tr é table row, adiciona linhas.
+--> td é table data, adiciona conteúdo nas células.
+
+-----------------------------------------------------------------------
+TAGS DE TABELAS AVANÇADAS:
+<table width="500" align="center" border="1">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>João Lucas</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>32</td>
+        </tr>
+    </tbody>
+</table>
+
+--> Essa é a forma de fazer um formulário mais semântico e também mais profissional.
+-----------------------------------------------------------------------
+TAGS DE FORMULÁRIO BÁSICAS:
+<form>
+   <input type="text" />
+   <input type="password" />
+</form>
+
+--> Criar uma área de texto:
+    <textarea></textarea>
+
+--> Criar um input do tipo botão:
+<input type="button" value="Enviar"/>
+<input type="submit" value="Enviar"/>
+
+--> Criar um botão:
+<button type="submit" onClick={função}>Enviar</button>
+
 -----------------------------------------------------------------------
